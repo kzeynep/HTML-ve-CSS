@@ -1,0 +1,31 @@
+/* Tüm "attribute" özniteliğine sahip öğeleri seçer */
+[attribute] {
+    color: blue;
+  }
+  
+  /* "attribute" özniteliği "header" olan h1 öğesini seçer */
+  h1[attribute="header"] {
+    font-size: 24px;
+  }
+  
+  /* "attribute" özniteliği "paragraph" olan p öğesini seçer */
+  p[attribute="paragraph"] {
+    font-size: 16px;
+  }
+  
+  /* "attribute" özniteliği "input" olan input öğesini seçer */
+  input[attribute="input"] {
+    width: 200px;
+  }
+  
+  /* "attribute" özniteliği "link" olan a öğesini seçer */
+  a[attribute="link"] {
+    text-decoration: none;
+  }
+  
+  /* "attribute" özniteliği "image" olan img öğesini seçer */
+  img[attribute="image"] {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,55 @@
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, section, footer {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Başlık stilleri */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #666;
+  }
+  
+  /* Menü stilleri */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  nav ul li a:hover {
+    color: #000;
+  }
+  
+  /* Liste stilleri */
+  ul {
+    list-style-type: disc;
+  }
+  
+  /* Footer stilleri */
+  footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 12px;
+  }
+  
